@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = YOUR OWN KEY
+SECRET_KEY = 'django-insecure-4rw!nx8%31^uyiy676%6s1ut^$bu8r$gypm=@5scf$n_a1o%cq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,14 +31,15 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'pollApp',
+    'landingPage',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'pollApp',
-    'landingPage'
+    'django.contrib.staticfiles'
+ 
 ]
 
 MIDDLEWARE = [

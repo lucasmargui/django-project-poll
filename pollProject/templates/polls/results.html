@@ -11,6 +11,6 @@
 	{% endfor %}
 </ul>
 
-<a class ="btn btn-secondary" href ="{% url 'polls:index' %}">Back To Polls</a>
-<a class ="btn btn-dark" href ="{% url 'polls:detail' question.id %}">Vote again?</a>
+<a class ="btn btn-secondary" href ="{% url 'polls:index' %}">Voltar para enquete</a>
+<a class ="btn btn-dark" href ="{% url 'polls:detail' question.id %}">Votar novamente?</a>
 {% endblock %}
