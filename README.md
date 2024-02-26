@@ -9,6 +9,9 @@
 
 ## Criação do PollProject
 
+<details>
+  <summary>Clique para mostrar conteúdo</summary>
+  
 Projeto inicial criado com estrutura principal, alterando urls.py para adicionar polls.urls/landingPage.urls e settings.py para adicionar os packages. 
  ```
 django-admin startproject PollProject
@@ -40,20 +43,36 @@ INSTALLED_APPS = [
 ]
  ```
 
+<div align="center">
+<img src="https://cdn.discordapp.com/attachments/1046824853015113789/1207331165669826580/image.png?ex=65df41c5&is=65ccccc5&hm=0294fac52d4376cda51760f25d74e069ce653511c22e5253b6614a27c0387a11" style="width:100%">
+</div>
 
-<img src="https://cdn.discordapp.com/attachments/1046824853015113789/1207331165669826580/image.png?ex=65df41c5&is=65ccccc5&hm=0294fac52d4376cda51760f25d74e069ce653511c22e5253b6614a27c0387a11&" alt="">
+
+
+</details>
+
 
 
 ## Criação do landingPage
 
+<details>
+  <summary>Clique para mostrar conteúdo</summary>
+  
 Criação de um pacote que será responsável pela páginal inicial de carregamento.
 
  ```
 python manage.py startapp landingPage
  ```
 
+
+</details>
+
+
 ## Criação do pollApp
 
+<details>
+  <summary>Clique para mostrar conteúdo</summary>
+  
 Criação de um pacote que será responsável pela lógica de votação.
 
  ```
@@ -84,7 +103,13 @@ O QuestionAdmin será as configurações que o administrador terá que inserir n
 
  
 
-<img src="https://cdn.discordapp.com/attachments/1046824853015113789/1207323401904201778/image.png?ex=65df3a89&is=65ccc589&hm=4085174401c7f2e3e869aa765ec36fcaa189ba29a6d30933dcda2d560d5142de&" alt="">
+<div align="center">
+<img src="https://github.com/lucasmargui/Django_Projeto_Enquete/assets/157809964/988ff85b-fc8b-4f8f-bd89-51f1401a03d5" style="width:100%">
+</div>
+
+
+
+
  
  ### urls.py
 
@@ -103,8 +128,16 @@ urlpatterns = [
 ```
 
 
+</details>
+
+
+
 ## Criação Template
 
+
+<details>
+  <summary>Clique para mostrar conteúdo</summary>
+  
 Diretório responsável por armazenar as páginas htmls que serão renderizadas.
 
 Por convenção, dentro de "template" é utilizado nome_do_projeto/nome_da_view.html para que framework reconheça o caminho.
@@ -181,16 +214,33 @@ def vote(request, question_id):
 ```
 
 
+
+</details>
+
+
 # Resultado
 
 ## Index
-<img src="https://cdn.discordapp.com/attachments/1046824853015113789/1207328378819059742/image.png?ex=65df3f2c&is=65ccca2c&hm=236341e157657a1eaef317a33f7e729928438890af8a6cef333785119eee53b7&" alt="">
+
+<div align="center">
+<img src="https://github.com/lucasmargui/Django_Projeto_Enquete/assets/157809964/f9dfef95-c1d9-4a02-a7d2-024143239a30" style="width:100%">
+</div>
 
 ## Questões
-<img src="https://cdn.discordapp.com/attachments/1046824853015113789/1207328471437807707/image.png?ex=65df3f42&is=65ccca42&hm=64428f86bb9ddee4e8c7e9383b54b80f08e493d782225ed42224e8e9987c98ad&" alt="">
+
+<div align="center">
+<img src="https://github.com/lucasmargui/Django_Projeto_Enquete/assets/157809964/d8620d7a-1405-460b-a2f9-ff8fe0c6f426" style="width:100%">
+</div>
 
 ## Votação
-<img src="https://cdn.discordapp.com/attachments/1046824853015113789/1207328605764329513/image.png?ex=65df3f62&is=65ccca62&hm=386839c5344cd943b282b4ce65f1dc47cd448410be701f6bbad9aab52c7a4720&" alt="">
+
+<div align="center">
+<img src="https://github.com/lucasmargui/Django_Projeto_Enquete/assets/157809964/dd864ebb-130b-4578-b216-6facc577e02e" style="width:100%">
+</div>
 
 ## Votos
-<img src="https://cdn.discordapp.com/attachments/1046824853015113789/1207328705513390110/image.png?ex=65df3f7a&is=65ccca7a&hm=717bee5808c78d7d8f9ce8aa78494ea4fbb8bbdaca702451a5b0c9de647aeaf8&" alt="">
+
+
+<div align="center">
+<img src="https://github.com/lucasmargui/Django_Projeto_Enquete/assets/157809964/68504e9c-6b38-4c29-9dc2-c31d57b31558" style="width:100%">
+</div>
