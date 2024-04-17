@@ -91,7 +91,7 @@ python manage.py startapp landingPage
 </details>
 
 
-## PollApp Creation
+## PollApp Create
 
 <details>
  <summary>Click to show content</summary>
