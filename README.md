@@ -1,5 +1,5 @@
-<H1 align="center">Voting Structure</H1>
-<p align="center">🚀 Project to create a poll structure using Django for future references</p>
+<H1 align="center"> Poll </H1>
+<p align="center">🚀 Project to create a poll using Django for future references</p>
 
 ## Resources Used
 
